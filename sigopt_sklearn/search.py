@@ -259,7 +259,7 @@ class SigOptSearchCV(BaseSearchCV):
         )
 
         if self.verbose > 0:
-            exp_url = 'https://sigopt.com/experiment/{0}'.format(self.experiment.id)
+            exp_url = 'https://sigopt.com/experiment/{0}'.format(experiment.id)
             print('Experiment progress available at :', exp_url)
 
         return experiment
